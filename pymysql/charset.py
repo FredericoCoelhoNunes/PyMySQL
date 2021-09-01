@@ -19,7 +19,7 @@ class Charset:
         if name in ("utf8mb4", "utf8mb3"):
             return "utf8"
         if name == "latin1":
-            return "cp1252"
+            return "latin1"
         if name == "koi8r":
             return "koi8_r"
         if name == "koi8u":
